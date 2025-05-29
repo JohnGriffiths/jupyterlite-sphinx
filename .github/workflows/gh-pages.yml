@@ -21,7 +21,7 @@ jobs:
       - name: Set up conda env
         uses: mamba-org/setup-micromamba@v1
         with:
-          environment-file: docs/environment.yml   # path to your env file
+          environment-file: dev-environment.yml    #docs/environment.yml   # path to your env file
           cache-downloads: true                    # optional but speeds things up
           cache-env: true
           create-args: >                           # any extra flags you need
