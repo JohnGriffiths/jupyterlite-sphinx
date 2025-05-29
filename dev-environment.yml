@@ -17,3 +17,4 @@ dependencies:
     - pip:
         - .
         - jupyterlite-xeus >=2.1.2
+        - jupyterlab-slideshow
